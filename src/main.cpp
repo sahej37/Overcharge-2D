@@ -5,7 +5,7 @@ int main() {
     // Create window
     const int screenWidth = 800;
     const int screenHeight = 450;
-    InitWindow(screenWidth, screenHeight, "GridDash");
+    InitWindow(screenWidth, screenHeight, "Overcharge 2D");
 
     // Set FPS
     SetTargetFPS(60);
