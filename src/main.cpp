@@ -3,9 +3,10 @@
 
 int main() {
     // Create window
-    const int screenWidth = 800;
-    const int screenHeight = 450;
-    InitWindow(screenWidth, screenHeight, "Overcharge 2D");
+    const int screenWidth = 1000;
+    const int screenHeight = 550;
+    SetConfigFlags(FLAG_WINDOW_RESIZABLE);
+    InitWindow(screenWidth, screenHeight, "Overcharge");
 
     // Set FPS
     SetTargetFPS(60);
@@ -16,6 +17,10 @@ int main() {
     // Main loop
     while (!WindowShouldClose()) {
         // Game logic
+        if (!IsWindowMaximized()) {
+            SetWindowSize(screenWidth, screenHeight);
+        }
+
         player->Update();
 
         // Drawings

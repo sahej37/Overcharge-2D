@@ -1,5 +1,5 @@
-# Overcharge 2D
-Overcharge 2D is a fast-paced, top-down hero-battle-royale game built in C++ using the Raylib library.
+# Overcharge
+Overcharge is a fast-paced, top-down hero-battle-royale game built in C++ using the Raylib library.
 
 Choose your specialization, master unique class abilities, collect map power-ups, and outsmart your opponents in a shrinking, high-stakes arena!
 
