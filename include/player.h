@@ -2,34 +2,32 @@
 #define PLAYER_H
 
 #include "raylib.h"
-#include "raymath.h"
-#include <math.h>
 
 class Player {
-private:
+public:
     Vector2 position;
     float angle;
     float movementSpeed;
     Vector2 target;
-    int range;
-    bool isShotting;
+    float range;
+    
+    bool isShooting;
     Vector2 shotPos;
     Vector2 shotStartPos;
-    float shotAngle;
+    Vector2 shotDir; 
     float shotSpeed;
-    float distanceFromShot;
+    
     int level;
     int health;
     Texture2D playerTexture;
 
-    void Move();
-    void Aim();
-    void Shot();
-
-public:
     Player(float StartX, float StartY);
     ~Player();
-    void Update();
+
+    void Move();
+    void Aim(Camera2D camera);
+    void Shot();
+    void Update(Camera2D &camera);
     void Draw();
 };
 

@@ -1,20 +1,11 @@
-# Overcharge
-Overcharge is a fast-paced, top-down hero-battle-royale game built in C++ using the Raylib library.
+Hi, I'm Sahejpreet Singh Toor. I'm 13 years old, living in Italy with Indian origins. 
 
-Choose your specialization, master unique class abilities, collect map power-ups, and outsmart your opponents in a shrinking, high-stakes arena!
+My goal is to study computer science and physics at Harvard. I like programming in C++ and learning how game engines work from scratch.
 
-🎮 Key Features
-Class-Based Combat: Play as unique specialists like the Medic, Engineer, and more—each with distinct abilities, tactical gear, and playstyles.
+### About this project
+This is a 2D top-down game I'm building using C++ and Raylib.
 
-Dynamic Arena: Adapt as the playing field contracts over time, forcing intense, close-quarters encounters.
-
-Map Loot & Power-ups: Scavenge the battlefield for game-changing buffs, weapons, and extra utility to gain the upper hand.
-
-Fast & Tactical Gameplay: Combines classic top-down shooter action with deep strategic class mechanics.
-
-🛠️ Built With
-Language: C++17 / C++20
-
-Graphics & Input: Raylib
-
-Build System: CMake
+Current features:
+- Tile-based grid map with frustum culling to optimize drawing
+- Player movement and aiming using vector math
+- Basic shooting mechanics
